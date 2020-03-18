@@ -1,6 +1,7 @@
 import random
 from pathlib import Path
 from PyQt5.QtWidgets import QWidget, QMessageBox, QRadioButton, QFileDialog
+from PyQt5.QtGui import QIcon
 
 from UI.ui_mainWin import Ui_MainWin
 from widgets.op_res_set_wgt import OperandResDlg
@@ -21,6 +22,7 @@ class MainWinWidget(QWidget):
         self.ui = Ui_MainWin()
         self.ui.setupUi(self)
         self.setWindowTitle("小学数学计算题生成工具")
+        self.setWindowIcon(QIcon("./math.ico"))
         self.cur_param = Params()   # 当前参数
         self.param_list = list()    # 参数列表
         self.psm_list = list()      # 题目列表

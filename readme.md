@@ -26,7 +26,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-
+环境搭建参考：[PyCharm搭建PyQt开发环境](https://github.com/lasyman/PrimarySchoolMathematics/blob/pyqt/PyCharm搭建PyQt环境.md)
 
 ## 三、 待解决问题
 
