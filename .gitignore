@@ -1,9 +1,0 @@
-
-*.docx
-__pycache__
-.idea
-.idea/workspace.xml
-docx
-.ini
-
-.vscode/settings.json
